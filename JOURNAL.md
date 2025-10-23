@@ -13,3 +13,11 @@ I rebuild the shematic of thr Devbord from the Blueprint Guides to build. I whan
 ![Bildschirmfoto 2025-10-21 um 19.09.55.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDEwMSwicHVyIjoiYmxvYl9pZCJ9fQ==--c25a1ce09dac7a42c28ffb734a424169c66c1594/Bildschirmfoto%202025-10-21%20um%2019.09.55.png)
   
 
+## 10/23/2025 - Migrate RP2040 to RP2350b + Build a Hirachic Shems  
+
+First I must search for the shem and footprint for the RP2350b.
+After that I Remove the RP2040 and place the RP2350b, and edit the capasitators.
+Than I build the new power changer for the RP2350b.
+After I bulid all this I reorgancie the schematic in different papers.![Bildschirmfoto 2025-10-23 um 16.24.14.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDc5MiwicHVyIjoiYmxvYl9pZCJ9fQ==--bc6d43b032c68b7f3a89073c1ac8f82479acd93c/Bildschirmfoto%202025-10-23%20um%2016.24.14.png)
+  
+
