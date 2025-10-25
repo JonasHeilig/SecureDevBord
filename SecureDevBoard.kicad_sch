@@ -6,6 +6,67 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+<<<<<<< HEAD
+		(at 317.5 66.04)
+=======
+		(at 317.5 78.74)
+>>>>>>> refs/remotes/origin/main
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+<<<<<<< HEAD
+		(uuid "94ebb319-b11f-4c58-a279-06f5f4573a27")
+		(property "Sheetname" "Network"
+			(at 317.5 65.3284 0)
+=======
+		(uuid "241ccf46-2460-4758-a7d5-a79119af1e4f")
+		(property "Sheetname" "PinHeaders"
+			(at 317.5 78.0284 0)
+>>>>>>> refs/remotes/origin/main
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+<<<<<<< HEAD
+		(property "Sheetfile" "network.kicad_sch"
+			(at 317.5 74.2446 0)
+=======
+		(property "Sheetfile" "pin_headers.kicad_sch"
+			(at 317.5 86.9446 0)
+>>>>>>> refs/remotes/origin/main
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SecureDevBoard"
+				(path "/c14388fe-d04a-4cf5-bac5-31c01c6a9ed5"
+<<<<<<< HEAD
+					(page "7")
+=======
+					(page "8")
+>>>>>>> refs/remotes/origin/main
+				)
+			)
+		)
+	)
+	(sheet
 		(at 317.5 2.54)
 		(size 25.4 7.62)
 		(exclude_from_sim no)
@@ -85,6 +146,48 @@
 			(project "SecureDevBoard"
 				(path "/c14388fe-d04a-4cf5-bac5-31c01c6a9ed5"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 317.5 66.04)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cbda237b-e351-479a-93d3-c76290a6044a")
+		(property "Sheetname" "Network"
+			(at 317.5 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "network.kicad_sch"
+			(at 317.5 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SecureDevBoard"
+				(path "/c14388fe-d04a-4cf5-bac5-31c01c6a9ed5"
+					(page "7")
 				)
 			)
 		)

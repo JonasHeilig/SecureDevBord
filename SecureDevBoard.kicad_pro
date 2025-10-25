@@ -613,6 +613,34 @@
     [
       "c14388fe-d04a-4cf5-bac5-31c01c6a9ed5",
       "Root"
+    ],
+    [
+      "b951a4e2-368a-4ccb-81c5-0669af09ff3a",
+      "Power"
+    ],
+    [
+      "c4786982-28c5-4b4d-b53e-b1b0f21a8915",
+      "Operrating RP2350B"
+    ],
+    [
+      "e45f18cf-7c67-46dc-a49c-f5a51cad6acf",
+      "Storage"
+    ],
+    [
+      "ed7aa505-6e90-4780-b341-14c17395a5c1",
+      "GraphicOS"
+    ],
+    [
+      "ffb7f6f1-0059-471b-a246-02ebe0f9629e",
+      "SecureParts"
+    ],
+    [
+      "cbda237b-e351-479a-93d3-c76290a6044a",
+      "Network"
+    ],
+    [
+      "241ccf46-2460-4758-a7d5-a79119af1e4f",
+      "PinHeaders"
     ]
   ],
   "text_variables": {}

@@ -5,6 +5,130 @@
 	(uuid "11c36d55-9a88-4cc5-bae9-13c5c78eddb8")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_UART:SN75176AD"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -232,12 +356,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JonasLibGit:RJ45-8Z4"
+		(symbol "JonasLib-Git:54602-908LF"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 19.05 7.62 0)
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -245,8 +369,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "RJ45-8Z4"
-				(at 19.05 5.08 0)
+			(property "Value" "54602-908LF"
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -254,18 +378,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SamacSys_Parts:RJ458Z4"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electronics%20Corcom%20PDFs/Z_Series.pdf"
-				(at 19.05 -194.92 0)
+			(property "Footprint" "54602908LF"
+				(at 16.51 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -274,7 +388,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RJ45-8Z4 M0=F9770"
+			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Modular Jack, Input Output Connectors, Cat 3 Single Modular Jack, Horizontal, Board Through Mount, 8P8C, 1 Port"
 				(at 0 0 0)
 				(effects
 					(font
@@ -283,8 +407,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "13.08"
-				(at 19.05 -394.92 0)
+			(property "Height" "12.85"
+				(at 16.51 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -293,8 +417,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "TE Connectivity"
-				(at 19.05 -494.92 0)
+			(property "Mouser Part Number" ""
+				(at 16.51 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -303,8 +427,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "RJ45-8Z4"
-				(at 19.05 -594.92 0)
+			(property "Mouser Price/Stock" ""
+				(at 16.51 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -313,8 +437,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "592-RJ45-8Z4"
-				(at 19.05 -694.92 0)
+			(property "Manufacturer_Name" "Amphenol Communications Solutions"
+				(at 16.51 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -323,8 +447,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Corcom/RJ45-8Z4?qs=7kimBNJHayDCs5Ci3ERF6w%3D%3D"
-				(at 19.05 -794.92 0)
+			(property "Manufacturer_Part_Number" "54602-908LF"
+				(at 16.51 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -333,30 +457,10 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" ""
-				(at 19.05 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 19.05 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "RJ45-8Z4_1_1"
+			(symbol "54602-908LF_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 17.78 -12.7)
+					(end 15.24 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -386,24 +490,6 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
 					(name "3"
 						(effects
 							(font
@@ -420,25 +506,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "5"
 						(effects
@@ -456,25 +524,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 0 180)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -2.54 180)
+					(at 0 -7.62 0)
 					(length 5.08)
 					(name "7"
 						(effects
@@ -492,7 +542,61 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -5.08 180)
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -7.62 180)
 					(length 5.08)
 					(name "8"
 						(effects
@@ -502,42 +606,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -7.62 180)
-					(length 5.08)
-					(name "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -10.16 180)
-					(length 5.08)
-					(name "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -775,9 +843,51 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 50.8 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "216cd04b-692b-4393-99e4-8e9cdbd83a93")
+	)
+	(junction
+		(at 52.07 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c3a3374-86eb-47d0-8d00-992ad62b3d4b")
+	)
+	(junction
+		(at 35.56 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f3bcf0f-4d64-48ef-a546-e237f5fb91ba")
+	)
+	(junction
+		(at 52.07 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "748d9615-9c33-4ba6-987b-cb4a5a215c93")
+	)
+	(junction
+		(at 35.56 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aca6c8b5-a5d3-4f5b-ad1e-b8df286abe21")
+	)
+	(junction
+		(at 50.8 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be64e1e4-1d38-4411-9b70-46ccdd5bec2a")
+	)
+	(junction
+		(at 59.69 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cad34dc2-91e1-4894-96ae-4528ddd9dc6a")
+	)
 	(wire
 		(pts
-			(xy 48.26 44.45) (xy 48.26 43.18)
+			(xy 35.56 49.53) (xy 35.56 48.26)
 		)
 		(stroke
 			(width 0)
@@ -787,7 +897,37 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 21.59) (xy 48.26 22.86)
+			(xy 35.56 50.8) (xy 35.56 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d89885-2037-49a3-877e-7b1e80c6f853")
+	)
+	(wire
+		(pts
+			(xy 35.56 50.8) (xy 50.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ab8deb-64d3-4904-8187-1b3a958b5a65")
+	)
+	(wire
+		(pts
+			(xy 39.37 27.94) (xy 35.56 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e916cd-45e3-44cb-99e7-82179d9ca357")
+	)
+	(wire
+		(pts
+			(xy 35.56 26.67) (xy 35.56 27.94)
 		)
 		(stroke
 			(width 0)
@@ -795,54 +935,246 @@
 		)
 		(uuid "4ea18cf7-6e5a-4310-860d-91521926f66f")
 	)
+	(wire
+		(pts
+			(xy 83.82 22.86) (xy 83.82 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff14406-01b7-4cd7-b31a-b1079b51e7bc")
+	)
+	(wire
+		(pts
+			(xy 52.07 22.86) (xy 83.82 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e90624f-2b19-4f2c-a7e3-0ff55a079fbc")
+	)
+	(wire
+		(pts
+			(xy 52.07 22.86) (xy 52.07 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65103e61-c9ba-4351-aa93-4a4a27bc3bef")
+	)
+	(wire
+		(pts
+			(xy 50.8 43.18) (xy 59.69 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a3ae12f-96be-4d8a-8ab7-c2e4b0a9a0d2")
+	)
+	(wire
+		(pts
+			(xy 59.69 38.1) (xy 59.69 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf6715b-49bc-42de-883a-88cf55f6b9a8")
+	)
+	(wire
+		(pts
+			(xy 44.45 22.86) (xy 39.37 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e0496d-283a-47e3-bec1-f84a81714dda")
+	)
+	(wire
+		(pts
+			(xy 43.18 40.64) (xy 52.07 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "952071ec-9523-4c06-938b-cd88d15414b7")
+	)
+	(wire
+		(pts
+			(xy 52.07 38.1) (xy 52.07 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9746f1db-0a68-4c98-b5a1-59789412d1fe")
+	)
+	(wire
+		(pts
+			(xy 39.37 22.86) (xy 39.37 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ae748d-21a0-4e4c-9733-58fa5a97749a")
+	)
+	(wire
+		(pts
+			(xy 50.8 50.8) (xy 63.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b07ad7be-c5b2-49aa-b6e2-8e358e901fde")
+	)
+	(wire
+		(pts
+			(xy 63.5 50.8) (xy 63.5 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d846b7e2-f7a3-4946-90e7-b2a11186cb8f")
+	)
+	(wire
+		(pts
+			(xy 43.18 43.18) (xy 50.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d984d05f-5d83-45cc-b749-ec3022adf2c4")
+	)
+	(wire
+		(pts
+			(xy 59.69 43.18) (xy 59.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6c4473-b81c-4fe6-adf3-899a1cdba800")
+	)
+	(wire
+		(pts
+			(xy 59.69 34.29) (xy 63.5 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad0a15f-38cf-47b2-bf64-5de7bd994b71")
+	)
+	(global_label "R"
+		(shape output)
+		(at 27.94 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e13ff74-228d-4663-91f8-d3dd30607284")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.6848 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D"
+		(shape input)
+		(at 27.94 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "398e98dc-a5de-42aa-bd22-bf8a6ae2fa1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.6848 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RE"
+		(shape output)
+		(at 27.94 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4737dc85-2e36-4dc4-9675-f5648e4d1019")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.5358 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DE"
+		(shape input)
+		(at 27.94 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da46bdac-c5b8-49b7-9fe5-967f6548a01c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.5358 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
-		(lib_id "JonasLibGit:RJ45-8Z4")
-		(at 33.02 62.23 0)
+		(lib_id "power:VBUS")
+		(at 35.56 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "51427e3f-3772-4a0b-881a-df09ac1b8521")
-		(property "Reference" "J2"
-			(at 44.45 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RJ45-8Z4"
-			(at 44.45 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:RJ458Z4"
-			(at 52.07 157.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electronics%20Corcom%20PDFs/Z_Series.pdf"
-			(at 52.07 257.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RJ45-8Z4 M0=F9770"
-			(at 33.02 62.23 0)
+		(uuid "48b6a2e2-628c-4266-9d1e-144a0d9448c4")
+		(property "Reference" "#PWR025"
+			(at 35.56 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -850,110 +1182,118 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "13.08"
-			(at 52.07 457.15 0)
+		(property "Value" "VBUS"
+			(at 35.56 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 52.07 557.15 0)
+		(property "Footprint" ""
+			(at 35.56 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RJ45-8Z4"
-			(at 52.07 657.15 0)
+		(property "Datasheet" ""
+			(at 35.56 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "592-RJ45-8Z4"
-			(at 52.07 757.15 0)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 35.56 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Corcom/RJ45-8Z4?qs=7kimBNJHayDCs5Ci3ERF6w%3D%3D"
-			(at 52.07 857.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 52.07 957.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 52.07 1057.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "93540130-09d7-4062-bab2-e8b727c66698")
 		)
 		(pin "1"
-			(uuid "1044b3a8-e5c3-4678-8d30-e6ec255bc8ef")
-		)
-		(pin "6"
-			(uuid "4b02ed0a-831a-4a31-8307-03281c03657e")
-		)
-		(pin "7"
-			(uuid "7522273b-f0d0-4acf-ae35-48b69fb641b5")
-		)
-		(pin "2"
-			(uuid "2577e23d-2c33-4d7c-b693-877a0e9ca45a")
-		)
-		(pin "3"
-			(uuid "6725887d-1d4d-4265-b2d4-3516da1dc658")
-		)
-		(pin "4"
-			(uuid "e2f6d9c0-67cf-4193-9ea4-ebfad362eff1")
-		)
-		(pin "MH1"
-			(uuid "8c804a73-b361-453f-b9e7-b1228292a16a")
-		)
-		(pin "8"
-			(uuid "1a31465b-f973-4db1-b464-f581ff7ce16c")
-		)
-		(pin "MH2"
-			(uuid "f0835d35-2828-42b1-b0f2-009971c35d1d")
+			(uuid "e68b3025-a738-4a92-b7d4-84ebcc85a688")
 		)
 		(instances
 			(project ""
-				(path "/c14388fe-d04a-4cf5-bac5-31c01c6a9ed5/94ebb319-b11f-4c58-a279-06f5f4573a27"
-					(reference "J2")
+				(path "/c14388fe-d04a-4cf5-bac5-31c01c6a9ed5/cbda237b-e351-479a-93d3-c76290a6044a"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 50.8 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9111f19d-097f-4112-bb35-5909c4c92ef3")
+		(property "Reference" "R10"
+			(at 53.34 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 53.34 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 49.022 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d1b2b97-40aa-40ed-847d-22f9a881d095")
+		)
+		(pin "2"
+			(uuid "d70f23f3-2ff7-4b44-ae85-2fccdc05a890")
+		)
+		(instances
+			(project ""
+				(path "/c14388fe-d04a-4cf5-bac5-31c01c6a9ed5/cbda237b-e351-479a-93d3-c76290a6044a"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -961,7 +1301,7 @@
 	)
 	(symbol
 		(lib_id "Interface_UART:SN75176AD")
-		(at 48.26 33.02 0)
+		(at 35.56 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -969,7 +1309,7 @@
 		(dnp no)
 		(uuid "a3e67068-2634-4501-bd63-b3c70288515c")
 		(property "Reference" "U1"
-			(at 57.404 27.178 90)
+			(at 44.704 32.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -977,7 +1317,7 @@
 			)
 		)
 		(property "Value" "SN75176AD"
-			(at 54.864 27.178 90)
+			(at 42.164 32.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -985,7 +1325,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 48.26 45.72 0)
+			(at 35.56 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,7 +1334,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn75176a.pdf"
-			(at 88.9 38.1 0)
+			(at 76.2 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,7 +1343,7 @@
 			)
 		)
 		(property "Description" "Differential RS-422/RS-485 bus transceiver, SOIC-8"
-			(at 48.26 33.02 0)
+			(at 35.56 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,7 +1377,7 @@
 		)
 		(instances
 			(project ""
-				(path "/c14388fe-d04a-4cf5-bac5-31c01c6a9ed5/94ebb319-b11f-4c58-a279-06f5f4573a27"
+				(path "/c14388fe-d04a-4cf5-bac5-31c01c6a9ed5/cbda237b-e351-479a-93d3-c76290a6044a"
 					(reference "U1")
 					(unit 1)
 				)
@@ -1045,8 +1385,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 55.88 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9c633d9-ef38-4576-8a56-e9f280ad7129")
+		(property "Reference" "R9"
+			(at 55.88 34.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 55.88 36.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 55.88 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c5594e29-ea41-4a93-98f9-14468f3e56d6")
+		)
+		(pin "1"
+			(uuid "cd2180df-1d7d-4a8a-af91-d6d6846509ce")
+		)
+		(instances
+			(project ""
+				(path "/c14388fe-d04a-4cf5-bac5-31c01c6a9ed5/cbda237b-e351-479a-93d3-c76290a6044a"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 48.26 44.45 0)
+		(at 35.56 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1055,7 +1462,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8e34850-0650-45a4-9b98-cc671c9b4ca5")
 		(property "Reference" "#PWR024"
-			(at 48.26 50.8 0)
+			(at 35.56 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1064,7 +1471,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 49.53 0)
+			(at 35.56 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,7 +1479,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 44.45 0)
+			(at 35.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,7 +1488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 44.45 0)
+			(at 35.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1090,7 +1497,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 44.45 0)
+			(at 35.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1103,7 +1510,7 @@
 		)
 		(instances
 			(project ""
-				(path "/c14388fe-d04a-4cf5-bac5-31c01c6a9ed5/94ebb319-b11f-4c58-a279-06f5f4573a27"
+				(path "/c14388fe-d04a-4cf5-bac5-31c01c6a9ed5/cbda237b-e351-479a-93d3-c76290a6044a"
 					(reference "#PWR024")
 					(unit 1)
 				)
@@ -1111,17 +1518,53 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 48.26 21.59 0)
+		(lib_id "JonasLib-Git:54602-908LF")
+		(at 63.5 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fe0a9189-fc86-480e-9d8c-fcc16274c0c3")
-		(property "Reference" "#PWR025"
-			(at 48.26 25.4 0)
+		(uuid "e85e56c5-bd5c-4877-a3e4-bcaa03b8ab30")
+		(property "Reference" "J2"
+			(at 73.66 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "54602-908LF"
+			(at 73.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JonasLib-Git:54602908LF"
+			(at 80.01 129.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf"
+			(at 80.01 229.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Modular Jack, Input Output Connectors, Cat 3 Single Modular Jack, Horizontal, Board Through Mount, 8P8C, 1 Port"
+			(at 63.5 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1129,16 +1572,117 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 48.26 16.51 0)
+		(property "Height" "12.85"
+			(at 80.01 429.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 80.01 529.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 80.01 629.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol Communications Solutions"
+			(at 80.01 729.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "54602-908LF"
+			(at 80.01 829.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aca9e42f-4b67-49df-a7ec-58a1712833fe")
+		)
+		(pin "3"
+			(uuid "b5925d0e-7636-4bc3-a815-afd8903e2b7d")
+		)
+		(pin "5"
+			(uuid "94d6694c-7f44-42c5-b40c-fc5d8ad7aa4e")
+		)
+		(pin "7"
+			(uuid "82eef7b5-15bf-445e-88a5-39a60b999cea")
+		)
+		(pin "2"
+			(uuid "816c26a4-bc7b-4217-935a-1d4eb60995ca")
+		)
+		(pin "8"
+			(uuid "5d3c1d8e-84e1-408b-b205-3933016ea9a0")
+		)
+		(pin "6"
+			(uuid "22fc32b3-10d6-4b71-a9f9-9635a115237f")
+		)
+		(pin "4"
+			(uuid "f65bab5c-98e2-4ac9-a293-8f796ed55331")
+		)
+		(instances
+			(project ""
+				(path "/c14388fe-d04a-4cf5-bac5-31c01c6a9ed5/cbda237b-e351-479a-93d3-c76290a6044a"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48.26 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb5a0427-ef68-4f1a-97bb-ffa6eebd2115")
+		(property "Reference" "R11"
+			(at 48.26 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 48.26 21.59 0)
+		(property "Value" "470"
+			(at 48.26 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 48.26 24.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,8 +1690,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 48.26 21.59 0)
+		(property "Datasheet" "~"
+			(at 48.26 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,8 +1699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 48.26 21.59 0)
+		(property "Description" "Resistor"
+			(at 48.26 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1165,12 +1709,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f0c9698-9152-4641-b917-90179faa1556")
+			(uuid "5e22fb11-d407-4aa7-ad49-253659ae1096")
+		)
+		(pin "2"
+			(uuid "91c0866f-525e-4c08-9ad5-6d9234956197")
 		)
 		(instances
 			(project ""
-				(path "/c14388fe-d04a-4cf5-bac5-31c01c6a9ed5/94ebb319-b11f-4c58-a279-06f5f4573a27"
-					(reference "#PWR025")
+				(path "/c14388fe-d04a-4cf5-bac5-31c01c6a9ed5/cbda237b-e351-479a-93d3-c76290a6044a"
+					(reference "R11")
 					(unit 1)
 				)
 			)
