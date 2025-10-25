@@ -1135,7 +1135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 234.442 33.02 90)
 			(effects
 				(font
@@ -1202,7 +1202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 228.6 39.878 90)
 			(effects
 				(font
@@ -1270,7 +1270,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JonasLib-Git:smd_switch_sunrom4388"
 			(at 218.44 33.02 0)
 			(effects
 				(font

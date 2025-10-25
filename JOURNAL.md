@@ -21,3 +21,24 @@ Than I build the new power changer for the RP2350b.
 After I bulid all this I reorgancie the schematic in different papers.![Bildschirmfoto 2025-10-23 um 16.24.14.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDc5MiwicHVyIjoiYmxvYl9pZCJ9fQ==--bc6d43b032c68b7f3a89073c1ac8f82479acd93c/Bildschirmfoto%202025-10-23%20um%2016.24.14.png)
   
 
+## 10/24/2025 9 PM - Modular Comunication 1 - 1  
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTIyMSwicHVyIjoiYmxvYl9pZCJ9fQ==--7f066e3f109c0d3cca211710a1b0cec2478db01c/image.png)
+
+![[LINK](https://github.com/JonasHeilig/SecureDevBord/commit/acabea30a5ff108a3bcb692ae81535fbc78a8d0d)](https://github.com/JonasHeilig/SecureDevBord/commit/acabea30a5ff108a3bcb692ae81535fbc78a8d0d)
+
+I work on a Device to Device Communication so 2 DevBords can communicate via a Ethernet Cable.
+Its the first time I build a Modulate Communication System so I hope its working.
+
+You can swich the DevBord type (Device A or B) by remove or add R10 and R11 - more in DeviceA_B.md  
+
+## 10/24/2025 11 PM - Add Pin Heders and Start to build the PCB  
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTI0OCwicHVyIjoiYmxvYl9pZCJ9fQ==--83f67713a4a55c2b2bafa4c938c03569471ff605/image.png)
+
+I added the Pin Heders to remove errors from the ERC.
+
+I also start to arrange the parts on the PCB
+
+To the shematic must be some ICs and chips added that the DevBord is a SecureDevBord to test skripts with secure parts.  
+
